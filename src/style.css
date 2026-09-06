@@ -90,3 +90,7 @@ a{
 .pixel {
   background-color: #ff7a0d;
 }
+
+body.no-clicks a {
+  pointer-events: none !important;
+}

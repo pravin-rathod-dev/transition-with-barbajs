@@ -222,3 +222,13 @@ barba.init({
     }
   ]
 });
+
+
+barba.hooks.before(() => {
+  document.body.classList.add('no-clicks');
+});
+
+
+barba.hooks.after(() => {
+  document.body.classList.remove('no-clicks');
+});
